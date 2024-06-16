@@ -3,7 +3,7 @@
 }
 body {
     overflow: auto;
-    background-color: #E7CEA6;
+    background-color: #5397ce;
     margin: 0;
 }
 #elhead {
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(10, 110, 189);
+    background-color: rgb(5, 42, 143);
     margin: 0px;
     font-size: 3rem;
     border-radius: 5px;
@@ -38,7 +38,7 @@ a:link, a:visited, a:active {
 .botones{
     text-decoration: none;
     padding: 0.5em;
-    background-color: rgb(90, 150, 227);
+    background-color: rgb(133, 28, 45);
     border: 2px black solid;
     border-radius: 10px;
     margin: 0em 1em;
@@ -47,7 +47,7 @@ a:link, a:visited, a:active {
 
 .botones:hover{
     background-color: rgb(161, 194, 241);
-    box-shadow: 3px 3px 0.8rem rgb(10, 110, 189, 0.7);
+    box-shadow: 3px 3px 0.8rem rgba(215, 35, 221, 0.7);
     cursor: pointer;
 }
 a:link{color:black}
