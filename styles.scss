@@ -6,20 +6,17 @@ body {
     background-color: #E7CEA6;
     margin: 0;
 }
-#elhead {
-    display: flex;
-}
 
 #div-titulo {
     width: 100%;
-    height: 8rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     background-color: rgb(10, 110, 189);
-    margin: 0px;
-    font-size: 3rem;
     border-radius: 5px;
+    color: black
 }
 
 #botones-nav{
