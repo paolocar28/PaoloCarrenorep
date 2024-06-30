@@ -16,9 +16,21 @@ body {
     align-items: center;
     background-color: rgb(10, 110, 189);
     border-radius: 5px;
-    color: black
+    color: black;
 }
-
+.indexopen{
+    animation-name: prueba;
+    animation-duration: 5s;
+}
+@keyframes prueba{
+    from{
+        height: 1000px;
+        background-color: rgb(0, 0, 0);
+    }
+    to{height: 5rem;
+        background-color: rgb(10, 110, 189);
+    }
+}
 #botones-nav{
     overflow: auto;
     padding: 1em;
@@ -29,20 +41,33 @@ body {
 a:link, a:visited, a:active {
         text-decoration:none;
     }
+
 .botones{
+    display: flex;
+    width: 30%;
     text-decoration: none;
     padding: 0.5em;
     background-color: rgb(90, 150, 227);
     border: 2px black solid;
     border-radius: 10px;
     margin: 0em 1em;
-    transition: 0.4s cubic-bezier(0.4, 0, 1, 1);
+    transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
+    justify-content: center;
 }
 
 .botones:hover{
-    background-color: rgb(161, 194, 241);
-    box-shadow: 3px 3px 0.8rem rgb(10, 110, 189, 0.7);
+    width: 40%;
+    background-color: rgb(227, 231, 236);
+    box-shadow: 0px 0px 0.8rem rgb(10, 110, 189, 0.7);
     cursor: pointer;
+    animation: botons 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite normal;
+}
+@keyframes botons {
+    0%{box-shadow: 0px 0px 0.8rem rgb(0, 0, 0);}
+    20%{box-shadow: 0px 0px 0.8rem rgb(90, 158, 2);}
+    45%{box-shadow: 0px 0px 0.8rem rgb(211, 11, 11);}
+    70%{box-shadow: 0px 0px 0.8rem rgb(148, 6, 177);}
+    95%{box-shadow: 0px 0px 0.8rem rgb(242, 245, 72);}
 }
 a:link{color:black}
 a:visited{
