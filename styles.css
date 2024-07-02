@@ -49,40 +49,41 @@ a:link, a:visited, a:active {
 
 .botones {
   display: flex;
-  width: 30%;
+  width: 20%;
   text-decoration: none;
   padding: 0.5em;
   background-color: rgb(90, 150, 227);
   border: 2px black solid;
   border-radius: 10px;
-  margin: 0em 1em;
+  margin: 0em 2em;
   transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
   justify-content: center;
 }
 
 .botones:hover {
   width: 40%;
-  background-color: rgb(227, 231, 236);
-  box-shadow: 0px 0px 0.8rem rgba(10, 110, 189, 0.7);
+  height: 90%;
+  background-color: rgb(128, 171, 224);
+  box-shadow: 10px 10px 1rem rgba(10, 110, 189, 0.7);
   cursor: pointer;
   animation: botons 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite normal;
 }
 
 @keyframes botons {
   0% {
-    box-shadow: 0px 0px 0.8rem rgb(0, 0, 0);
+    box-shadow: 10px 8px 1rem rgb(0, 0, 0);
   }
   20% {
-    box-shadow: 0px 0px 0.8rem rgb(90, 158, 2);
+    box-shadow: 10px 8px 1rem rgb(90, 158, 2);
   }
   45% {
-    box-shadow: 0px 0px 0.8rem rgb(211, 11, 11);
+    box-shadow: 10px 8px 1rem rgb(211, 11, 11);
   }
   70% {
-    box-shadow: 0px 0px 0.8rem rgb(148, 6, 177);
+    box-shadow: 10px 8px 1rem rgb(148, 6, 177);
   }
   95% {
-    box-shadow: 0px 0px 0.8rem rgb(242, 245, 72);
+    box-shadow: 10px 8px 1rem rgb(242, 245, 72);
   }
 }
 a:link {
